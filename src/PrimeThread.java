@@ -64,7 +64,7 @@ public class PrimeThread extends Thread {
      * @return A string specifying statistics of each Thread.
      */
     public String getStatistics(){
-        String stats = String.format("%s \n PrimesFounds = %s \n Time Spent working = %s secs\n " +
+        String stats = String.format("%s | PrimesFounds = %s | Time Spent working = %s secs | " +
                 "Bites collected = %s", name, n_primes, runningTime/1000000000.0,bite_count);
         return stats;
     }
